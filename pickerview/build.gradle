@@ -28,4 +28,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:$androidXAppcompat"
+    api 'com.contrarywind:wheelview:4.1.0'
 }
